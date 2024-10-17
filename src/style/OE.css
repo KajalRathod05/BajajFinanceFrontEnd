@@ -1,0 +1,9 @@
+.app {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 220px; /* Make space for the sidebar */
+    padding: 20px;
+  }
+  
