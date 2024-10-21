@@ -7,6 +7,7 @@ import ViewEnquiry from '../modules/OE/ViewEnquiry'
 import AddUsers from '../modules/Admin/AddUsers';
 import ViewUsers from '../modules/Admin/ViewUsers';
 import LoanForm from '../modules/loanservice/LoanForm'
+import ViewCustomers from '../modules/Admin/ViewCustomers';
 
 
 function Dashboard() {
@@ -18,7 +19,8 @@ function Dashboard() {
     ADMIN: [
       { path: '/add-employee', component:<AddUsers/> },
       { path: '/view-employees', component: <ViewUsers/> },
-      { path: '/view-enquiries', component: <ViewEnquiry/> }      
+      { path: '/view-enquiries', component: <ViewEnquiry/> },
+      { path:'/view-customers', component: <ViewCustomers/>}     
     ],
     CRM: [
       { path: '/add-enquiry', component: <AddEnquiry /> },               

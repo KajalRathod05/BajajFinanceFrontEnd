@@ -10,8 +10,9 @@ function SideNav() {
     let options = {
         ADMIN: [
             { lable: 'Add Employee', to: 'add-employee' },
-            { lable: 'View Employees', to: 'view-employees' }
-
+            { lable: 'View Employees', to: 'view-employees'},
+            { lable:'View Enquiries', to:'view-enquiries'},
+            { lable: 'View Customers', to:'view-customers'}
         ],
         CRM: [
             { lable: 'Add Enquiry', to: 'add-enquiry' },
@@ -38,4 +39,4 @@ function SideNav() {
     )
 }
 
-export default SideNav
+export default SideNav;
